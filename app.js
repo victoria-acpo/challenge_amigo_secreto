@@ -31,6 +31,25 @@ function agregarAmigo(){
 
 }  
 
-//actualizarLista();
+function actualizarLista(){
+    
+    //Obtener el elemento de la lista
+    let lista = document.getElementById("listaAmigos");
+
+    // Limpiar lista existente
+    lista.innerHTML = "";
+
+    // Itera sobre el arreglo con un bucle for para crear elementos de la lista <li>
+
+    for (let i = 0; i < listaDeAmigos.length; i++){
+
+        // Crea elemento <li> y se agrega a la lista 
+       lista.innerHTML += `<li>${listaDeAmigos[i]}</li>`;
+     
+    }
+    
+}
+
+
 
 
