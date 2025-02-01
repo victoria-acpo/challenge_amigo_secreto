@@ -25,7 +25,8 @@ Este proyecto es una aplicación web interactiva que permite a los usuarios ingr
 
 ## Estructura del proyecto
 ```
-📂 AmigoSecreto
+📂 challenge_amigo_secreto
+├── 📂 assets          # Recursos del proyecto (imágenes, íconos, etc.)
 ├── 📄 index.html      # Estructura principal de la página
 ├── 📄 style.css       # Estilos de la aplicación
 ├── 📄 app.js         # Lógica del sorteo y manejo de la lista
